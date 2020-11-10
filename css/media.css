@@ -1,0 +1,157 @@
+@media screen and (min-width:1610px) {
+  .header {
+    width:33%;
+  }
+  .container {
+    margin-left:33%;
+  }
+  .container article {
+    padding:144px;
+  }
+  .logo {
+    font-size: 5rem;
+  }
+
+  /* article */
+
+  .movie_header {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+  .movie_header h2 {
+    font-size:2.5rem;
+  }
+  .director {
+    text-align:right;
+  }
+}
+@media screen and (min-width:1200px) and (max-width:1609px) {
+  .header {
+    width:600px;
+  }
+  .container {
+    margin-left:600px;
+  }
+  .container article {
+    padding:72px;
+  }
+  .logo {
+    font-size: 5rem;
+  }
+
+    /* article */
+
+  .movie_header {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+  .movie_header h2 {
+    font-size:2rem;
+  }
+  .director {
+    text-align:right;
+  }
+}
+@media screen and (min-width:840px) and (max-width:1199px) {
+  .header {
+    width:420px;
+  }
+  .container {
+    margin-left:420px;
+  }
+  .container article {
+    padding:36px;
+  }
+  .logo {
+    font-size: 3.8rem;
+  }
+  .index {
+    max-width:100%;
+    width:100%;
+  }
+  
+  /* article */
+
+  .movie_header {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+  .movie_header h2 {
+    font-size:1.9rem;
+  }
+  .director {
+    text-align:right;
+  }
+}
+@media screen and (min-width:600px) and (max-width:839px) {
+  .header {
+    position:relative;
+    display:block;
+  }
+  .container {
+    display:block;
+  }
+  .container article {
+    padding:72px;
+  }
+  .logo {
+    font-size: 5rem;
+  }
+  .index {
+    max-width:100%;
+    width:100%;
+  }
+
+    /* article */
+
+  .movie_header {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+  .movie_header h2 {
+    font-size:2.5rem;
+  }
+  .director {
+    text-align:right;
+  }
+}
+@media screen and (max-width:599px) {
+  .header {
+    position:relative;
+    display:block;
+  }
+  .container {
+    display:block;
+  }
+  .container article {
+    padding:36px;
+  }
+  .logo {
+    font-size: 3.8rem;
+    padding:10vh 0 36px 36px;
+  }
+  .index_wrap {
+    padding:36px;
+  }
+  .index {
+    max-width:100%;
+    width:100%;
+  }
+
+  /* article */
+
+  .movie_header {
+    display:flex;
+    flex-direction: column;
+    }
+  .movie_header h2 {
+    font-size:1.6rem;
+  }
+  .director {
+    padding-top:5px;
+  }
+}

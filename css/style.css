@@ -1,0 +1,162 @@
+body {
+  font-family: Univers
+}
+.header {
+  height:100%;
+  background: #F0F0F0;
+  position: fixed;
+  display:flex;
+  flex-direction: column;
+  color: #E95951; 
+}
+.logo {
+  padding: 10vh 0 72px 72px;
+  font-size: 80px;
+  letter-spacing:9px;
+}
+.index_wrap {
+  display:flex;
+  padding: 72px;
+  flex-direction:column;
+  align-content:flex-start;
+}
+.index {
+  max-width:400px;
+  width:80%;
+}
+.index p:nth-child(1) {
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  transition: color 0.3s linear;
+}
+.index p:nth-child(1):hover {
+  color:rgb(133, 31, 31);
+}
+.index p:nth-child(2) {
+  font-size: 1em;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: justify;
+  transition: color 0.3s linear;
+}
+.index p:nth-child(2):hover {
+  color:rgb(133, 31, 31);
+}
+.nav {
+  width:100%;
+  color: rgba(0,0,0,.6);
+  font-size: .9em;
+}
+.nav a {
+  display:inline-block;
+  color:rgba(0,0,0,.6);
+  border-bottom: 1px solid rgba(0,0,0,.6);
+  margin:0 20px 10px 0;
+  text-decoration:none;
+  line-height:1.2;
+  transition: color 0.3s linear;
+}
+.nav a:hover {
+  color:black;
+  border-bottom: 1px solid black;
+}
+
+/* article  */
+
+.container {
+  background:#E7473C;
+  height:100%;
+  color:white;
+}
+.container article {
+  position:relative;
+  padding: 140px;
+}
+#module:before {
+  background:linear-gradient(rgba(0,0,0,.1),transparent);
+  content:"";
+  height:100px;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+}
+.movie_header {
+  padding-bottom:18px;
+}
+.movie_footer {
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+}
+.agree {
+  padding:24px 0;
+}
+.movie1_img {
+  width: 100%;
+  padding-top:56%;
+  background-size: cover;
+  background-image: url(../img/56_the-vanishing.png);
+  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0,0,0,.06), inset 0 0 0 1px rgba(0,0,0,.2);
+  opacity: 0.6;
+  transition: border-radius 0.3s linear, opacity 0.3s linear;
+}
+.movie1_img:hover {
+  border-radius: 50px;
+  opacity: 1;
+}
+.movie2_img {
+  width: 100%;
+  padding-top:56%;
+  background-size: cover;
+  background-image: url(../img/55_the-omen.png);
+  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0,0,0,.06), inset 0 0 0 1px rgba(0,0,0,.2);
+  opacity: 0.6;
+  transition: border-radius 0.3s linear, opacity 0.3s linear;
+}
+.movie2_img:hover {
+  border-radius: 50px;
+  opacity: 1;
+}
+.movie3_img {
+  width: 100%;
+  padding-top:56%;
+  background-size: cover;
+  background-image: url(../img/54_les-diaboliques.png);
+  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0,0,0,.06), inset 0 0 0 1px rgba(0,0,0,.2);
+  opacity: 0.6;
+  transition: border-radius 0.3s linear, opacity 0.3s linear;
+}
+.movie3_img:hover {
+  border-radius: 50px;
+  opacity: 1;
+}
+.movie4_img {
+  width: 100%;
+  padding-top:56%;
+  background-size: cover;
+  background-image: url(../img/53_the-shining.png);
+  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0,0,0,.06), inset 0 0 0 1px rgba(0,0,0,.2);
+  opacity: 0.6;
+  transition: border-radius 0.3s linear, opacity 0.3s linear;
+}
+.movie4_img:hover {
+  border-radius: 50px;
+  opacity: 1;
+}
+.movie5_img {
+  width: 100%;
+  padding-top:56%;
+  background-size: cover;
+  background-image: url(../img/52_jaws.png);
+  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0,0,0,.06), inset 0 0 0 1px rgba(0,0,0,.2);
+  opacity: 0.6;
+  transition: border-radius 0.3s linear, opacity 0.3s linear;
+}
+.movie5_img:hover {
+  border-radius: 50px;
+  opacity: 1;
+}
